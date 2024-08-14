@@ -2,7 +2,7 @@
 console.log('Step 3');
 
 let x = 'Mosh'; 
-console.log(x);
+console.log(x); //and the 'Mosh' will appear in the console
 
 
 //Strings, number = (integers, Float), Boolean, Char, 
@@ -27,7 +27,8 @@ let person = {    //person is the Object. {} is the syntax you use while using a
 };
 
 //Dot Notation
-person.name = 'Bob';
+person.name = 'Bob'; //changes the name to bob
+person.age = 21; // changes the age to 21
 
 // Bracket notation
 person['name'] = 'Mary';
